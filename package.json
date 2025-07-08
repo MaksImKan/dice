@@ -1,0 +1,38 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "A modern dice guessing game built with React and TypeScript",
+  "type": "module",
+  "source": "./index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "next-dev": "next dev",
+    "next-build": "next build",
+    "next-start": "next start"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "lucide-react": "^0.453.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "tailwind-merge": "2.5.4",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "@radix-ui/react-radio-group": "^1.2.1",
+    "@radix-ui/react-slider": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "esbuild": "0.24.0",
+    "globals": "15.12.0",
+    "tailwindcss": "3.4.16",
+    "vite": "6.0.4"
+  },
+  "alias": {
+    "@/*": "./src/components/ui/$1"
+  }
+}
